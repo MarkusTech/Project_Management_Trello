@@ -23,3 +23,4 @@ shadcnUI & TailwindCSS
 > [] in folder = you can find it using params or just like getting an user using ID
 > () in folder = you cant see it in the web browser because it is exclusive
 > npx shadcn-ui@latest add button
+> npm install @clerk/nextjs
