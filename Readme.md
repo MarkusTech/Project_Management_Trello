@@ -27,3 +27,4 @@
 > npm i usehooks-ts
 > npx shadcn-ui@latest add skeleton
 > npx shadcn-ui@latest add accordion
+> npx shadcn-ui@latest add separator
