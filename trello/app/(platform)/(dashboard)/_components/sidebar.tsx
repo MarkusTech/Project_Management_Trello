@@ -77,7 +77,11 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
         type="multiple"
         defaultValue={defaultAccordionValue}
         className="space-y-2"
-      ></Accordion>
+      >
+        {userMemberships.data.map(({ organization }) => (
+          <p key={organization.id}>{organization.id}</p>
+        ))}
+      </Accordion>
     </>
   );
 };
